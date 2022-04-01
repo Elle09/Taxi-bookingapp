@@ -1,6 +1,19 @@
-{
+{ "name": "Elle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
-    "create-react-app": "^5.0.0",
-    "taxi": "^0.2.9"
-  }
+    "express": "^4.15.3",
+    "mongoose": "^4.10.4",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+
+  
 }
